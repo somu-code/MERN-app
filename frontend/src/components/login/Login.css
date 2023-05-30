@@ -25,6 +25,10 @@ input {
   margin-bottom: 1.2rem;
 }
 
+input:focus {
+  outline: none;
+}
+
 .forgot-password {
   text-align: center;
 }
