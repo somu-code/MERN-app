@@ -11,3 +11,8 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.login-page-link,
+.singup-page-link {
+  font-size: 1.125rem;
+}
