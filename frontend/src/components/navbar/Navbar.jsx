@@ -13,10 +13,7 @@ function Navbar() {
         <div className="nav-right">
           <ul>
             <li className="login-page-link">
-              <Link to="/login">Login</Link>
-            </li>
-            <li className="singup-page-link">
-              <Link to="/singup">Sing up</Link>
+              <Link to="/login">Sign in</Link>
             </li>
           </ul>
         </div>
