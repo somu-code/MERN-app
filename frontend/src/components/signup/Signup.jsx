@@ -1,4 +1,5 @@
 import "./Signup.css";
+import ButtonComp from "../button_comp/ButtonComp";
 
 function Signup() {
   return (
@@ -6,8 +7,8 @@ function Signup() {
       <div className="root-signup-container">
         <div className="signup-container">
           <h2 className="signup-text">Sign Up</h2>
-          <input type="text" name="name" id="name" placeholder="full name" />
-          <input type="email" name="email" id="email" placeholder="email" />
+          <input type="text" name="name" id="" placeholder="full name" />
+          <input type="email" name="email" id="" placeholder="email" />
           <input
             type="password"
             name="password"
@@ -20,7 +21,7 @@ function Signup() {
             id="conform-password"
             placeholder="conform password"
           />
-          <button className="signup-button">Sign Up</button>
+          <ButtonComp buttonText="Sing up" />
         </div>
       </div>
     </>

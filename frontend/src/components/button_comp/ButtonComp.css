@@ -1,0 +1,13 @@
+.signIn-button {
+  min-width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  min-height: 2.5rem;
+  border-radius: 0.8rem;
+  font-weight: 500;
+}
+
+.signIn-button:hover {
+  background-color: gray;
+  color: #fff;
+}
